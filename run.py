@@ -1,6 +1,6 @@
 import requests
 import os
-import whois
+ 
 #DATA TELEGRAM
 token = "ISI TOKEN BOT DARI BOTFATHER"
 group_id = "ISI CHAT ID"
