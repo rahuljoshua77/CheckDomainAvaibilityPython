@@ -1,13 +1,15 @@
 import requests
 import os
- 
-#DATA TELEGRAM
-token = "ISI TOKEN BOT DARI BOTFATHER"
-group_id = "ISI CHAT ID"
-
-#DATA GODEDDY
-secret_key = "SECREKEY"
-api_key = "API_KEY"
+from time import sleep
+cwd = os.getcwd()
+file_list_akun = "data123.txt"
+myfile_akun = open(f"{cwd}/{file_list_akun}","r")
+akun = myfile_akun.read()
+get_data = akun.split("|")
+token = get_data[0]
+group_id = get_data[1]
+secret_key = get_data[2]
+api_key = get_data[3]
 
 headers = {
     "Authorization": f"sso-key {secret_key}:{api_key}",
