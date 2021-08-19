@@ -2,7 +2,7 @@ import requests
 import os
 from time import sleep
 cwd = os.getcwd()
-file_list_akun = "data123.txt"
+file_list_akun = "data.txt"
 myfile_akun = open(f"{cwd}/{file_list_akun}","r")
 akun = myfile_akun.read()
 get_data = akun.split("|")
