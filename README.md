@@ -1,5 +1,5 @@
 # CheckDomainAvaibilityPython
-Check Domain Avaibility Python with Telegram Notifikasi
+Check Domain Avaibility Python with Telegram Notification
 
 # Usage
 
