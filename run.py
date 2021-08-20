@@ -12,7 +12,7 @@ secret_key = get_data[2]
 api_key = get_data[3]
 
 headers = {
-    "Authorization": f"sso-key {secret_key}:{api_key}",
+    "Authorization": f"sso-key {token}",
     "accept":"application/json"
     }
 def broadcast_msg(msg):
