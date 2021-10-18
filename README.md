@@ -22,3 +22,5 @@ Check Domain Avaibility Python with Telegram Notification
     3. Secret Key & Api Key Ote Godaddy: https://developer.godaddy.com/getstarted
 
 Enjoy!
+
+#hacktoberfest2021
